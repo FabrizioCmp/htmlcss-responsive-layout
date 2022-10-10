@@ -1,6 +1,7 @@
 /*** GENERAL , mobile first***/
 :root{
-
+    --color1: blue;
+    --color2: lightblue;
 }
 
 *{
@@ -17,11 +18,15 @@ section{
 
 }
 
+img{
+    display: block;
+    width: 100%;
+}
+
 .container{
     width: 100%;
     margin: 0 auto;
-    padding: 0 1rem;
-    border: 1px dashed red; /* per visualizzazione*/
+    padding: 0 2rem;
 }
 
 .row{
@@ -52,16 +57,52 @@ section{
 
 .card{
     border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    line-height: 1.5rem;
+    background-color: var(--color2);
+}
+
+.mrg-auto{
+    margin: 0 auto;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+/*** NAV-SECTION ***/
+nav {
+    background-color: var(--color1);
+    position: fixed;
+    top: 0%;
+    height: 60px;
+    width: 100%;
+}
+
+nav > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
 
 
 
-/*** NAV-SECTION ***/
-
-
-
-
 /*** CONTENT-SECTION ***/
+
+/* section1 */
+.section1{
+    margin-top: 80px;
+}
+
+.icon{
+    width: 200px;
+}
+
+
+
 
 
 
