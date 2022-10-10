@@ -2,6 +2,7 @@
 :root{
     --color1: blue;
     --color2: lightblue;
+    --color3: rgb(169, 162, 226);
 }
 
 *{
@@ -61,13 +62,15 @@ img{
     flex-wrap: wrap;
     padding: 1rem;
     line-height: 1.5rem;
-    background-color: var(--color2);
 }
 
 .mrg-auto{
     margin: 0 auto;
 }
 
+.mrg-v1{
+    margin: 1rem 0;
+}
 .txt-center{
     text-align: center;
 }
@@ -97,8 +100,21 @@ nav > .container{
     margin-top: 80px;
 }
 
+.card-s1{
+    background-color: var(--color2);
+}
 .icon{
     width: 200px;
+}
+
+/* section2 */
+
+.section2{
+    background-color: var(--color3);
+}
+
+.bg-white{
+    background-color: white;
 }
 
 
@@ -107,4 +123,13 @@ nav > .container{
 
 
 
+
+
 /*** FOOTER-SECTION ***/
+
+
+
+
+
+
+

@@ -1,5 +1,5 @@
 /*** MEDIUM RES -md ***/
-@media screen and (min-width = 768 ){
+@media screen and (min-width = 768px){
     .col-1-md{
         flex-basis: 100%;
     }
@@ -38,7 +38,7 @@
 
 
 /*** LARGE RES -lg ***/
-@media screen and (min-width = 920 ){
+@media screen and (min-width = 920px ){
     .container{
         max-width: 920px;
     }
