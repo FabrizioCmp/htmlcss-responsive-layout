@@ -26,6 +26,7 @@ section{
 img{
     display: block;
     width: 100%;
+    max-height: max-content;
 }
 
 button{
@@ -75,6 +76,7 @@ button{
     flex-wrap: wrap;
     padding: 2rem;
     line-height: 1.5rem;
+    height: 100%;
 }
 
 .btn-blue{
@@ -83,6 +85,9 @@ button{
     font-weight: 600;
 }
 
+#mrg{
+   margin: 0; 
+}
 
 .mrg-auto{
     margin: 0 auto;
@@ -102,6 +107,10 @@ button{
     padding-top: 2rem;
 }
 
+.pd-btm2{
+    padding-bottom: 2rem;
+}
+
 .pd-30{
     padding: 15px;
 }
@@ -114,16 +123,46 @@ button{
     color: white;
 }
 
+.c-violet{
+    color: var(--color3);
+}
+
+.c-dark{
+    color: var(--colorf);
+}
+
 .fs{
     font-size: 2.1rem;
 }
 
+.fs1{
+    font-size: 1rem;
+}
+
+.fs35{
+    font-size: 3.5rem;
+}
+
+.fw3{
+    font-weight: 300;
+}
 .italic{
     font-style: italic;
 }
 
 .text-color{
     color: var(--colorf);
+}
+
+div[class^="img-round"]{
+    aspect-ratio: 1/1;
+    padding: 15% 0;
+    border-radius: 50%;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
 }
 
 /*** NAV-SECTION ***/
@@ -173,6 +212,7 @@ nav > .container{
 /* section2 */
 .section2{
     background-color: var(--color3);
+    padding-top: 80px;
 }
 
 .section2 p{
@@ -198,8 +238,28 @@ nav > .container{
 }
 
 /* section3 */
+.section3{
+    margin-top: 80px;
+}
+
 .bg-violet{
     background-color: var(--color3);
+}
+
+.title-sec3{
+    color: var(--color3);
+
+}
+
+.t1{
+    background-image: url(../img/testimonial1.jpg);
+}
+
+.t2{
+    background-image: url(../img/testimonial2.jpg);
+}
+.t3{
+    background-image: url(../img/testimonial3.jpg);
 }
 
 
@@ -212,13 +272,41 @@ nav > .container{
     background-color: white;
 }
 
+.number{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
 
+.btn-sc4{
+    background-color: var(--color3);
+    color: white;
+    margin-top: 2rem;
+}
 
+/* seection5 */
+.tsec5{
+    background-image: url(../img/about.jpg);
+}
 
+.btn-sec5{
+    background-color: var(--color3);
+    color: white;
+    padding: 10px 10px;
+}
 
+.btn-sec5 > img {
+    width: 15px;
+}
 
+/* section6 */
+.section6{
+    background-color: var(--color3);
+}
 
-
+.link-w{
+    text-decoration: underline;
+    color: white;
+}
 
 
 /*** FOOTER-SECTION ***/
@@ -227,6 +315,10 @@ footer{
     color: white;
 }
 
+.link-v{
+    text-decoration: underline;
+    color: var(--color3);
+}
 
 
 
