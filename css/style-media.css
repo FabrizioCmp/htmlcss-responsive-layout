@@ -38,6 +38,15 @@
         padding-bottom: 10rem;
     }
 
+    /* section3 */
+    .md-text-pos-start{
+        text-align: left;
+    }
+
+    /* section5 */
+    .md-padR-2{
+        padding-right: 3rem;
+    }
 
 
     /*** FOOTER-SECTION-md ***/
