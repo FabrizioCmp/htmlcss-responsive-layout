@@ -86,6 +86,13 @@
 
   
     /*** NAV-SECTION-lg ***/
+    .d-none{
+        display: none;
+    }
+
+    .list-menu{
+        display: flex;
+    }
 
 
 
