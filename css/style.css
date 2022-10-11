@@ -206,7 +206,7 @@ nav > .container{
     color: var(--color1);
 }
 
-.card-s1 > div > button > img{
+.card-s1 > div > div > button > img{
     width: 15px;
 }
 .img-s1{
