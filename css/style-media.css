@@ -110,7 +110,10 @@
     width: 60%;
     margin: 0 auto;
    }
-
+    
+   .container-small{
+    width: 500px;
+   }
    
 
     /*** FOOTER-SECTION-lg ***/
