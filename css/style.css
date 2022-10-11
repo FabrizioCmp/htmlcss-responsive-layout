@@ -45,6 +45,8 @@ button{
     padding: 0 2rem;
 }
 
+
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -185,8 +187,26 @@ nav > .container{
     height: 100%;
 }
 
+.list-menu{
+    display: none;
+}
 
+.list-menu > ul{
+    list-style: none;
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+}
 
+.list-menu > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-nav{
+    color: var(--colorf);
+    padding: 10px 10px;
+}
 /*** CONTENT-SECTION ***/
 
 /* section1 */
